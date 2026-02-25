@@ -1,0 +1,401 @@
+ticket_text,label
+Authentication failed for API call from Aramex.,api_failure
+Order 9786 not delivered on time in Mumbai.,delivery_delay
+Delivery rescheduled for shipment 6828.,delivery_delay
+Order 2834 not reflecting in warehouse system.,warehouse_sync
+Refund for shipment 8787 not processed even after 4 hours.,payment
+Customer charged twice for order 3303. Please verify invoice.,payment
+Invoice mismatch detected for order 6720 from Flipkart.,payment
+Order 2655 not delivered on time in Dubai.,delivery_delay
+Stock mismatch detected for product in order 7775.,warehouse_sync
+Timeout error observed during data sync for shipment 4893.,api_failure
+Delivery rescheduled for shipment 9346.,delivery_delay
+Client Aramex reporting shipment ID 4760 not updated in dashboard since 2 hours.,tracking
+Order 9704 not reflecting in warehouse system.,warehouse_sync
+Tracking page for order 4762 shows stale information from 4 hours ago.,tracking
+Driver assigned late for delivery 4844.,delivery_delay
+Refund for shipment 4794 not processed even after 6 hours.,payment
+Invoice mismatch detected for order 6982 from Amazon.,payment
+Payment failed but amount debited for order 6542.,payment
+API returning 500 error while updating shipment 5819.,api_failure
+Delivery status not reflecting latest scan for order 9004.,tracking
+Customer charged twice for order 5466. Please verify invoice.,payment
+Webhook not triggered for client BlueDart order 4325.,api_failure
+Driver assigned late for delivery 7319.,delivery_delay
+Dispatch delay reported for order 1978.,delivery_delay
+Webhook not triggered for client Aramex order 8859.,api_failure
+Refund for shipment 7734 not processed even after 4 hours.,payment
+Warehouse sync issue between OMS and WMS for shipment 2065.,warehouse_sync
+Unable to refresh tracking details for shipment 3231.,tracking
+Delivery rescheduled for shipment 1179.,delivery_delay
+Sync failure between systems affecting shipment 5436.,warehouse_sync
+Webhook not triggered for client Aramex order 4521.,api_failure
+Invoice mismatch detected for order 2408 from BlueDart.,payment
+Shipment 4876 delayed beyond SLA by 12 hours.,delivery_delay
+Sync failure between systems affecting shipment 4033.,warehouse_sync
+Delivery rescheduled for shipment 7755.,delivery_delay
+Delivery status not reflecting latest scan for order 1345.,tracking
+Payment failed but amount debited for order 3821.,payment
+Tracking page for order 7555 shows stale information from 9 hours ago.,tracking
+Inventory not updated in WMS for SKU linked to order 3779.,warehouse_sync
+Delivery status not reflecting latest scan for order 6960.,tracking
+Client Aramex reporting shipment ID 2843 not updated in dashboard since 4 hours.,tracking
+Authentication failed for API call from Amazon.,api_failure
+Shipment 6327 delayed beyond SLA by 9 hours.,delivery_delay
+Refund for shipment 3248 not processed even after 10 hours.,payment
+Data sync failed between systems for order 5993.,api_failure
+Shipment 9395 delayed beyond SLA by 9 hours.,delivery_delay
+Billing amount incorrect for transaction 4209.,payment
+Shipment 9224 status stuck in transit. No webhook activity detected.,tracking
+Sync failure between systems affecting shipment 3187.,warehouse_sync
+Tracking page for order 9044 shows stale information from 7 hours ago.,tracking
+Stock mismatch detected for product in order 4838.,warehouse_sync
+Payment failed but amount debited for order 6260.,payment
+Shipment 1935 status stuck in transit. No webhook activity detected.,tracking
+Sync failure between systems affecting shipment 6596.,warehouse_sync
+API returning 500 error while updating shipment 8027.,api_failure
+Invoice mismatch detected for order 1720 from Flipkart.,payment
+Customer charged twice for order 2078. Please verify invoice.,payment
+Shipment 9362 status stuck in transit. No webhook activity detected.,tracking
+Dispatch delay reported for order 5118.,delivery_delay
+Payment failed but amount debited for order 5080.,payment
+Billing amount incorrect for transaction 9455.,payment
+Payment failed but amount debited for order 6565.,payment
+Sync failure between systems affecting shipment 8031.,warehouse_sync
+Data sync failed between systems for order 4483.,api_failure
+Order 9825 not delivered on time in Bangalore.,delivery_delay
+Timeout error observed during data sync for shipment 6311.,api_failure
+Order 1370 not reflecting in warehouse system.,warehouse_sync
+Inventory not updated in WMS for SKU linked to order 1720.,warehouse_sync
+Client DTDC reporting shipment ID 6609 not updated in dashboard since 6 hours.,tracking
+API returning 500 error while updating shipment 3432.,api_failure
+Shipment 8673 status stuck in transit. No webhook activity detected.,tracking
+Shipment 4674 status stuck in transit. No webhook activity detected.,tracking
+Webhook not triggered for client Amazon order 5575.,api_failure
+Unable to refresh tracking details for shipment 2560.,tracking
+Inventory not updated in WMS for SKU linked to order 6125.,warehouse_sync
+Delivery status not reflecting latest scan for order 7285.,tracking
+Warehouse sync issue between OMS and WMS for shipment 1672.,warehouse_sync
+Tracking page for order 4431 shows stale information from 11 hours ago.,tracking
+Dispatch delay reported for order 7703.,delivery_delay
+Refund for shipment 2261 not processed even after 8 hours.,payment
+API returning 500 error while updating shipment 3232.,api_failure
+Shipment 2065 delayed beyond SLA by 3 hours.,delivery_delay
+Order 3876 not delivered on time in Bangalore.,delivery_delay
+Tracking page for order 6670 shows stale information from 5 hours ago.,tracking
+Order 9863 not delivered on time in Dubai.,delivery_delay
+Unable to refresh tracking details for shipment 6381.,tracking
+Shipment 3149 delayed beyond SLA by 7 hours.,delivery_delay
+Inventory not updated in WMS for SKU linked to order 9016.,warehouse_sync
+Timeout error observed during data sync for shipment 4144.,api_failure
+Client DTDC reporting shipment ID 4015 not updated in dashboard since 10 hours.,tracking
+Tracking page for order 8169 shows stale information from 8 hours ago.,tracking
+Unable to refresh tracking details for shipment 2811.,tracking
+Timeout error observed during data sync for shipment 8852.,api_failure
+Inventory not updated in WMS for SKU linked to order 1900.,warehouse_sync
+Delivery rescheduled for shipment 4786.,delivery_delay
+Customer charged twice for order 1169. Please verify invoice.,payment
+Shipment 2005 delayed beyond SLA by 6 hours.,delivery_delay
+Payment failed but amount debited for order 9469.,payment
+Warehouse sync issue between OMS and WMS for shipment 1672.,warehouse_sync
+Tracking page for order 2276 shows stale information from 12 hours ago.,tracking
+Order 4219 not delivered on time in Bangalore.,delivery_delay
+Delivery rescheduled for shipment 3677.,delivery_delay
+Payment failed but amount debited for order 8795.,payment
+Delivery rescheduled for shipment 2154.,delivery_delay
+Billing amount incorrect for transaction 8222.,payment
+Driver assigned late for delivery 1429.,delivery_delay
+Driver assigned late for delivery 7351.,delivery_delay
+Authentication failed for API call from Aramex.,api_failure
+Payment failed but amount debited for order 1474.,payment
+Refund for shipment 8640 not processed even after 2 hours.,payment
+Data sync failed between systems for order 2787.,api_failure
+Shipment 6044 delayed beyond SLA by 2 hours.,delivery_delay
+Authentication failed for API call from DTDC.,api_failure
+Delivery status not reflecting latest scan for order 8254.,tracking
+Client Amazon reporting shipment ID 5672 not updated in dashboard since 8 hours.,tracking
+Shipment 2518 status stuck in transit. No webhook activity detected.,tracking
+Data sync failed between systems for order 4766.,api_failure
+Customer charged twice for order 9407. Please verify invoice.,payment
+Order 3820 not reflecting in warehouse system.,warehouse_sync
+Shipment 2941 status stuck in transit. No webhook activity detected.,tracking
+Webhook not triggered for client Flipkart order 9782.,api_failure
+Payment failed but amount debited for order 4279.,payment
+Delivery rescheduled for shipment 7072.,delivery_delay
+Warehouse sync issue between OMS and WMS for shipment 6630.,warehouse_sync
+Sync failure between systems affecting shipment 9476.,warehouse_sync
+Stock mismatch detected for product in order 4332.,warehouse_sync
+Inventory not updated in WMS for SKU linked to order 2994.,warehouse_sync
+Tracking page for order 9182 shows stale information from 10 hours ago.,tracking
+Shipment 3095 delayed beyond SLA by 8 hours.,delivery_delay
+Timeout error observed during data sync for shipment 7778.,api_failure
+Webhook not triggered for client Aramex order 5888.,api_failure
+Dispatch delay reported for order 4602.,delivery_delay
+Timeout error observed during data sync for shipment 7712.,api_failure
+Stock mismatch detected for product in order 1791.,warehouse_sync
+Inventory not updated in WMS for SKU linked to order 5306.,warehouse_sync
+Shipment 2160 delayed beyond SLA by 12 hours.,delivery_delay
+Unable to refresh tracking details for shipment 5889.,tracking
+Delivery status not reflecting latest scan for order 1971.,tracking
+Billing amount incorrect for transaction 1573.,payment
+Shipment 3066 delayed beyond SLA by 2 hours.,delivery_delay
+Timeout error observed during data sync for shipment 8056.,api_failure
+Authentication failed for API call from Flipkart.,api_failure
+Sync failure between systems affecting shipment 9196.,warehouse_sync
+Stock mismatch detected for product in order 2868.,warehouse_sync
+Refund for shipment 1704 not processed even after 8 hours.,payment
+Payment failed but amount debited for order 5643.,payment
+Refund for shipment 6646 not processed even after 6 hours.,payment
+Dispatch delay reported for order 1486.,delivery_delay
+Sync failure between systems affecting shipment 9727.,warehouse_sync
+Delivery status not reflecting latest scan for order 1140.,tracking
+Sync failure between systems affecting shipment 1507.,warehouse_sync
+Client BlueDart reporting shipment ID 6755 not updated in dashboard since 11 hours.,tracking
+Sync failure between systems affecting shipment 2887.,warehouse_sync
+Invoice mismatch detected for order 2655 from DTDC.,payment
+Billing amount incorrect for transaction 3863.,payment
+Shipment 8655 delayed beyond SLA by 1 hours.,delivery_delay
+Timeout error observed during data sync for shipment 1255.,api_failure
+Shipment 9199 delayed beyond SLA by 4 hours.,delivery_delay
+Tracking page for order 8576 shows stale information from 2 hours ago.,tracking
+Shipment 1005 delayed beyond SLA by 2 hours.,delivery_delay
+Payment failed but amount debited for order 5807.,payment
+Sync failure between systems affecting shipment 8147.,warehouse_sync
+Client Aramex reporting shipment ID 9060 not updated in dashboard since 6 hours.,tracking
+Tracking page for order 1510 shows stale information from 4 hours ago.,tracking
+Client DTDC reporting shipment ID 7819 not updated in dashboard since 4 hours.,tracking
+Stock mismatch detected for product in order 3063.,warehouse_sync
+Client Reliance reporting shipment ID 1947 not updated in dashboard since 7 hours.,tracking
+Order 8646 not delivered on time in London.,delivery_delay
+Warehouse sync issue between OMS and WMS for shipment 8846.,warehouse_sync
+API returning 500 error while updating shipment 3484.,api_failure
+Client Reliance reporting shipment ID 8490 not updated in dashboard since 7 hours.,tracking
+Invoice mismatch detected for order 7448 from Flipkart.,payment
+Invoice mismatch detected for order 1658 from Flipkart.,payment
+API returning 500 error while updating shipment 2225.,api_failure
+Delivery rescheduled for shipment 8855.,delivery_delay
+Data sync failed between systems for order 8602.,api_failure
+Warehouse sync issue between OMS and WMS for shipment 2814.,warehouse_sync
+Dispatch delay reported for order 8149.,delivery_delay
+Client Amazon reporting shipment ID 5344 not updated in dashboard since 10 hours.,tracking
+Refund for shipment 2267 not processed even after 12 hours.,payment
+Inventory not updated in WMS for SKU linked to order 8116.,warehouse_sync
+Dispatch delay reported for order 2908.,delivery_delay
+Order 7131 not delivered on time in Dubai.,delivery_delay
+Warehouse sync issue between OMS and WMS for shipment 1355.,warehouse_sync
+Timeout error observed during data sync for shipment 4678.,api_failure
+Timeout error observed during data sync for shipment 2501.,api_failure
+Warehouse sync issue between OMS and WMS for shipment 3267.,warehouse_sync
+Timeout error observed during data sync for shipment 9746.,api_failure
+Customer charged twice for order 8730. Please verify invoice.,payment
+Unable to refresh tracking details for shipment 5396.,tracking
+Billing amount incorrect for transaction 8775.,payment
+Client Amazon reporting shipment ID 8708 not updated in dashboard since 9 hours.,tracking
+Delivery status not reflecting latest scan for order 9821.,tracking
+Unable to refresh tracking details for shipment 7700.,tracking
+Sync failure between systems affecting shipment 7322.,warehouse_sync
+Payment failed but amount debited for order 3007.,payment
+Order 6062 not reflecting in warehouse system.,warehouse_sync
+Payment failed but amount debited for order 6835.,payment
+Customer charged twice for order 5775. Please verify invoice.,payment
+Driver assigned late for delivery 8335.,delivery_delay
+Inventory not updated in WMS for SKU linked to order 5798.,warehouse_sync
+Warehouse sync issue between OMS and WMS for shipment 6844.,warehouse_sync
+Shipment 5629 delayed beyond SLA by 6 hours.,delivery_delay
+Invoice mismatch detected for order 1795 from Aramex.,payment
+Stock mismatch detected for product in order 9484.,warehouse_sync
+Customer charged twice for order 9173. Please verify invoice.,payment
+Refund for shipment 6970 not processed even after 10 hours.,payment
+Authentication failed for API call from Amazon.,api_failure
+Customer charged twice for order 3686. Please verify invoice.,payment
+Invoice mismatch detected for order 4208 from Amazon.,payment
+Delivery status not reflecting latest scan for order 3249.,tracking
+Payment failed but amount debited for order 2800.,payment
+Webhook not triggered for client BlueDart order 9945.,api_failure
+Unable to refresh tracking details for shipment 8151.,tracking
+Tracking page for order 7539 shows stale information from 1 hours ago.,tracking
+Inventory not updated in WMS for SKU linked to order 9373.,warehouse_sync
+Unable to refresh tracking details for shipment 3753.,tracking
+Shipment 5698 status stuck in transit. No webhook activity detected.,tracking
+Timeout error observed during data sync for shipment 8486.,api_failure
+Sync failure between systems affecting shipment 6561.,warehouse_sync
+Dispatch delay reported for order 1866.,delivery_delay
+Driver assigned late for delivery 8069.,delivery_delay
+Billing amount incorrect for transaction 2714.,payment
+Invoice mismatch detected for order 2173 from BlueDart.,payment
+Dispatch delay reported for order 3248.,delivery_delay
+Client Flipkart reporting shipment ID 1343 not updated in dashboard since 12 hours.,tracking
+Customer charged twice for order 7424. Please verify invoice.,payment
+Unable to refresh tracking details for shipment 6068.,tracking
+Delivery status not reflecting latest scan for order 8174.,tracking
+Shipment 5571 delayed beyond SLA by 11 hours.,delivery_delay
+Customer charged twice for order 8258. Please verify invoice.,payment
+Shipment 6658 status stuck in transit. No webhook activity detected.,tracking
+Data sync failed between systems for order 8250.,api_failure
+Warehouse sync issue between OMS and WMS for shipment 5626.,warehouse_sync
+Warehouse sync issue between OMS and WMS for shipment 6267.,warehouse_sync
+Shipment 6171 status stuck in transit. No webhook activity detected.,tracking
+Billing amount incorrect for transaction 6280.,payment
+Order 1083 not delivered on time in Riyadh.,delivery_delay
+Customer charged twice for order 8995. Please verify invoice.,payment
+Webhook not triggered for client DTDC order 1922.,api_failure
+Client Reliance reporting shipment ID 2243 not updated in dashboard since 8 hours.,tracking
+Warehouse sync issue between OMS and WMS for shipment 3561.,warehouse_sync
+Dispatch delay reported for order 8441.,delivery_delay
+Order 5759 not reflecting in warehouse system.,warehouse_sync
+Sync failure between systems affecting shipment 4008.,warehouse_sync
+Sync failure between systems affecting shipment 1698.,warehouse_sync
+Customer charged twice for order 5897. Please verify invoice.,payment
+Invoice mismatch detected for order 1864 from Reliance.,payment
+Tracking page for order 4948 shows stale information from 7 hours ago.,tracking
+Warehouse sync issue between OMS and WMS for shipment 2763.,warehouse_sync
+Shipment 3955 status stuck in transit. No webhook activity detected.,tracking
+Shipment 2110 delayed beyond SLA by 3 hours.,delivery_delay
+Order 7662 not delivered on time in Dubai.,delivery_delay
+Delivery rescheduled for shipment 7312.,delivery_delay
+Webhook not triggered for client DTDC order 2594.,api_failure
+Shipment 9416 status stuck in transit. No webhook activity detected.,tracking
+Customer charged twice for order 8868. Please verify invoice.,payment
+Customer charged twice for order 5733. Please verify invoice.,payment
+Warehouse sync issue between OMS and WMS for shipment 5637.,warehouse_sync
+Customer charged twice for order 9037. Please verify invoice.,payment
+Data sync failed between systems for order 4336.,api_failure
+Delivery rescheduled for shipment 7550.,delivery_delay
+API returning 500 error while updating shipment 8840.,api_failure
+Data sync failed between systems for order 2409.,api_failure
+Order 5613 not reflecting in warehouse system.,warehouse_sync
+Authentication failed for API call from BlueDart.,api_failure
+Inventory not updated in WMS for SKU linked to order 8338.,warehouse_sync
+Unable to refresh tracking details for shipment 3397.,tracking
+Shipment 9346 delayed beyond SLA by 9 hours.,delivery_delay
+Authentication failed for API call from BlueDart.,api_failure
+Shipment 8578 delayed beyond SLA by 6 hours.,delivery_delay
+Billing amount incorrect for transaction 6879.,payment
+Order 9439 not reflecting in warehouse system.,warehouse_sync
+Authentication failed for API call from Reliance.,api_failure
+Billing amount incorrect for transaction 9058.,payment
+Stock mismatch detected for product in order 8938.,warehouse_sync
+Authentication failed for API call from Aramex.,api_failure
+Tracking page for order 3858 shows stale information from 2 hours ago.,tracking
+Authentication failed for API call from BlueDart.,api_failure
+Order 4379 not reflecting in warehouse system.,warehouse_sync
+Billing amount incorrect for transaction 2381.,payment
+Sync failure between systems affecting shipment 6480.,warehouse_sync
+API returning 500 error while updating shipment 4995.,api_failure
+Inventory not updated in WMS for SKU linked to order 9791.,warehouse_sync
+Stock mismatch detected for product in order 1421.,warehouse_sync
+Authentication failed for API call from Amazon.,api_failure
+Order 3348 not delivered on time in Delhi.,delivery_delay
+Timeout error observed during data sync for shipment 8433.,api_failure
+Invoice mismatch detected for order 4026 from Amazon.,payment
+Shipment 7547 status stuck in transit. No webhook activity detected.,tracking
+Webhook not triggered for client Amazon order 6222.,api_failure
+Order 7581 not reflecting in warehouse system.,warehouse_sync
+Sync failure between systems affecting shipment 4683.,warehouse_sync
+Invoice mismatch detected for order 3207 from Aramex.,payment
+Inventory not updated in WMS for SKU linked to order 2165.,warehouse_sync
+Tracking page for order 2707 shows stale information from 7 hours ago.,tracking
+Delivery status not reflecting latest scan for order 3355.,tracking
+Order 6241 not delivered on time in Delhi.,delivery_delay
+Authentication failed for API call from Amazon.,api_failure
+API returning 500 error while updating shipment 6303.,api_failure
+Unable to refresh tracking details for shipment 6116.,tracking
+Billing amount incorrect for transaction 4912.,payment
+Dispatch delay reported for order 1629.,delivery_delay
+Timeout error observed during data sync for shipment 2133.,api_failure
+Invoice mismatch detected for order 8189 from Flipkart.,payment
+Inventory not updated in WMS for SKU linked to order 8015.,warehouse_sync
+Webhook not triggered for client Aramex order 9456.,api_failure
+API returning 500 error while updating shipment 6578.,api_failure
+Webhook not triggered for client Flipkart order 7728.,api_failure
+Stock mismatch detected for product in order 3354.,warehouse_sync
+Unable to refresh tracking details for shipment 4235.,tracking
+Tracking page for order 2125 shows stale information from 6 hours ago.,tracking
+Order 7905 not delivered on time in Bangalore.,delivery_delay
+Warehouse sync issue between OMS and WMS for shipment 7739.,warehouse_sync
+Dispatch delay reported for order 8930.,delivery_delay
+Invoice mismatch detected for order 5510 from DTDC.,payment
+Inventory not updated in WMS for SKU linked to order 1545.,warehouse_sync
+Invoice mismatch detected for order 4557 from Aramex.,payment
+Order 1219 not delivered on time in Dubai.,delivery_delay
+Shipment 4279 status stuck in transit. No webhook activity detected.,tracking
+Shipment 6073 delayed beyond SLA by 12 hours.,delivery_delay
+Shipment 8736 status stuck in transit. No webhook activity detected.,tracking
+Authentication failed for API call from DTDC.,api_failure
+Order 9432 not reflecting in warehouse system.,warehouse_sync
+Shipment 5355 delayed beyond SLA by 9 hours.,delivery_delay
+Invoice mismatch detected for order 4518 from DTDC.,payment
+Webhook not triggered for client BlueDart order 2064.,api_failure
+Inventory not updated in WMS for SKU linked to order 5870.,warehouse_sync
+Webhook not triggered for client Amazon order 3814.,api_failure
+Customer charged twice for order 7254. Please verify invoice.,payment
+Data sync failed between systems for order 7985.,api_failure
+Tracking page for order 4212 shows stale information from 11 hours ago.,tracking
+Refund for shipment 7401 not processed even after 8 hours.,payment
+Shipment 3532 status stuck in transit. No webhook activity detected.,tracking
+Authentication failed for API call from Amazon.,api_failure
+Timeout error observed during data sync for shipment 6028.,api_failure
+Webhook not triggered for client Aramex order 6859.,api_failure
+Refund for shipment 4304 not processed even after 12 hours.,payment
+Order 7681 not reflecting in warehouse system.,warehouse_sync
+Delivery rescheduled for shipment 8156.,delivery_delay
+Inventory not updated in WMS for SKU linked to order 9293.,warehouse_sync
+Driver assigned late for delivery 2141.,delivery_delay
+Webhook not triggered for client DTDC order 5045.,api_failure
+Sync failure between systems affecting shipment 9309.,warehouse_sync
+Delivery rescheduled for shipment 6679.,delivery_delay
+Delivery rescheduled for shipment 5837.,delivery_delay
+Refund for shipment 8300 not processed even after 10 hours.,payment
+Data sync failed between systems for order 5570.,api_failure
+Tracking page for order 1107 shows stale information from 8 hours ago.,tracking
+Shipment 3705 delayed beyond SLA by 12 hours.,delivery_delay
+Invoice mismatch detected for order 5303 from BlueDart.,payment
+Driver assigned late for delivery 3304.,delivery_delay
+Authentication failed for API call from Aramex.,api_failure
+Dispatch delay reported for order 4373.,delivery_delay
+Webhook not triggered for client Reliance order 9480.,api_failure
+Shipment 9222 status stuck in transit. No webhook activity detected.,tracking
+Delivery rescheduled for shipment 9233.,delivery_delay
+Authentication failed for API call from Flipkart.,api_failure
+Order 7825 not delivered on time in Riyadh.,delivery_delay
+Driver assigned late for delivery 4250.,delivery_delay
+Webhook not triggered for client Amazon order 4458.,api_failure
+Authentication failed for API call from BlueDart.,api_failure
+Delivery status not reflecting latest scan for order 3795.,tracking
+Order 7917 not reflecting in warehouse system.,warehouse_sync
+Invoice mismatch detected for order 6998 from BlueDart.,payment
+Billing amount incorrect for transaction 1315.,payment
+Driver assigned late for delivery 8317.,delivery_delay
+Webhook not triggered for client DTDC order 6139.,api_failure
+Timeout error observed during data sync for shipment 3658.,api_failure
+Delivery status not reflecting latest scan for order 5894.,tracking
+Inventory not updated in WMS for SKU linked to order 7869.,warehouse_sync
+Delivery status not reflecting latest scan for order 9046.,tracking
+Authentication failed for API call from BlueDart.,api_failure
+Order 7005 not delivered on time in Riyadh.,delivery_delay
+Driver assigned late for delivery 5979.,delivery_delay
+Stock mismatch detected for product in order 9739.,warehouse_sync
+Customer charged twice for order 6119. Please verify invoice.,payment
+Dispatch delay reported for order 1441.,delivery_delay
+Timeout error observed during data sync for shipment 6007.,api_failure
+Unable to refresh tracking details for shipment 8038.,tracking
+Sync failure between systems affecting shipment 7075.,warehouse_sync
+Delivery rescheduled for shipment 9081.,delivery_delay
+Tracking page for order 2878 shows stale information from 4 hours ago.,tracking
+Data sync failed between systems for order 9884.,api_failure
+Order 3305 not reflecting in warehouse system.,warehouse_sync
+Payment failed but amount debited for order 3482.,payment
+Customer charged twice for order 5808. Please verify invoice.,payment
+Stock mismatch detected for product in order 6576.,warehouse_sync
+Shipment 1856 status stuck in transit. No webhook activity detected.,tracking
+Webhook not triggered for client Aramex order 8480.,api_failure
+API returning 500 error while updating shipment 3947.,api_failure
+Inventory not updated in WMS for SKU linked to order 2380.,warehouse_sync
+Order 9045 not reflecting in warehouse system.,warehouse_sync
+Delivery status not reflecting latest scan for order 4572.,tracking
+Delivery rescheduled for shipment 1433.,delivery_delay
+Customer charged twice for order 5802. Please verify invoice.,payment
+Authentication failed for API call from DTDC.,api_failure
+Delivery rescheduled for shipment 8870.,delivery_delay
+Authentication failed for API call from Aramex.,api_failure
+Tracking page for order 4768 shows stale information from 7 hours ago.,tracking
