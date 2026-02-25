@@ -1,0 +1,11 @@
+timestamp,ticket_text,predicted_issue,confidence,automation_result,status
+2026-02-25 22:27:19,Client Flipkart reporting that shipment ID 7845 has not updated in dashboard since 6 hours. Webhook logs show no recent activity.,tracking,81.57,Shipment 7845 sync restarted successfully.,Automated
+2026-02-25 22:29:26,"Shipment 4532 status not refreshed after API sync attempt this morning.
+",api_failure,34.17,Escalated to human support,Escalated
+2026-02-25 22:31:44,"Customer from Amazon claims order 9921 was charged twice but only one invoice generated.
+",payment,83.97,Refund initiated for order 9921.,Automated
+2026-02-25 22:35:20,"Refund for shipment 5567 still pending even after 3 days and billing team not responding.
+Expected → payment",payment,76.52,Refund initiated for order 5567.,Automated
+2026-02-25 22:37:07,API returning 500 error while updating shipment 8882 for client DTDC.,api_failure,85.9,API retriggered for order 8882.,Automated
+2026-02-25 22:44:36,"Authentication token expired during shipment 7744 status update.
+",api_failure,36.13,Escalated to human support,Escalated
