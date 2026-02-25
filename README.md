@@ -1,198 +1,197 @@
 --> AutoResolveAI – AI-Powered Support Automation Agent
 
-An applied AI system that simulates enterprise-grade customer support automation for logistics platforms.
-
-This project demonstrates how traditional ML, Retrieval-Augmented Generation (RAG), and LLM-based response generation can be combined to automate customer ticket resolution while maintaining reliability and explainability.
+          An applied AI system that simulates enterprise-grade customer support automation for logistics platforms.
+          
+          This project demonstrates how traditional ML, Retrieval-Augmented Generation (RAG), and LLM-based response generation can be combined to automate customer ticket resolution while maintaining                  reliability and explainability.
 
 --> Problem Statement
 
 Enterprise logistics companies receive thousands of support tickets daily related to:
 
-Shipment tracking
+     Shipment tracking
+     
+     Payment disputes
+     
+     API failures
+     
+     Delivery delays
 
-Payment disputes
-
-API failures
-
-Delivery delays
-
-Warehouse synchronization issues
+     Warehouse synchronization issues
 
 Manual handling of these tickets:
 
-Increases SLA risk
-
-Slows resolution time
-
-Reduces customer satisfaction
-
-Increases operational costs
+     Increases SLA risk
+     
+     Slows resolution time
+     
+     Reduces customer satisfaction
+     
+     Increases operational costs
 
 AutoResolveAI simulates how AI can:
 
-Classify tickets
-
-Suggest resolutions
-
-Generate professional responses
-
-Execute automated actions
-
-Log all activities for monitoring
+     Classify tickets
+     
+     Suggest resolutions
+     
+     Generate professional responses
+     
+     Execute automated actions
+     
+     Log all activities for monitoring
 
 --> System Architecture
-User Ticket
-     ↓
-ML Classification (Logistic Regression)
-     ↓
-RAG-based Suggested Resolution
-     ↓
-LLM (Phi-3 via Ollama) → Customer Email Generation
-     ↓
-Deterministic Automation Execution
-     ↓
-Structured Logging (CSV-based)
-     ↓
-Dashboard Display
+     User Ticket
+          ↓
+     ML Classification (Logistic Regression)
+          ↓
+     RAG-based Suggested Resolution
+          ↓
+     LLM (Phi-3 via Ollama) → Customer Email Generation
+          ↓
+     Deterministic Automation Execution
+          ↓
+     Structured Logging (CSV-based)
+          ↓
+     Dashboard Display
 --> Key Components
-1️⃣ Ticket Classification
+1️. Ticket Classification
 
-File: 
+     File: 
+     
+     ticket_classifier
+     
+     TF-IDF Vectorization
+     
+     Logistic Regression
+     
+     Confidence-based automation threshold
+     
+     Synthetic enterprise dataset
 
-ticket_classifier
+2️. Synthetic Data Generator
 
-TF-IDF Vectorization
+     File: 
+     
+     generate_data
+     
+     Generates realistic enterprise-style tickets with:
+     
+     Client names
+     
+     Shipment IDs
+     
+     Locations
+     
+     SLA delays
+     
+     API failures
 
-Logistic Regression
+3️. RAG Engine (Knowledge Retrieval)
 
-Confidence-based automation threshold
+     File: 
+     
+     rag_engine
+     
+     Uses sentence-transformers
+     
+     FAISS similarity search
+     
+     Retrieves best-matching resolution template
 
-Synthetic enterprise dataset
+4️. Automation Engine
 
-2️⃣ Synthetic Data Generator
+     File: 
+     
+     automation_engine
+     
+     Maps issue type → automated action:
+     
+     restart_sync()
+     
+     refund_payment()
+     
+     retrigger_api()
+     
+     update_eta()
+     
+     resync_inventory()
+     
+     Includes dynamic ID extraction from ticket text.
 
-File: 
+5️. LLM-Powered Response Generation
 
-generate_data
+     Inside: 
+     
+     app
+     
+     Uses:
+     
+     Ollama
+     
+     Phi-3 model
+     
+     Generates professional customer-facing email responses signed as:
+     
+     Dhanasree Gidijala
 
-Generates realistic enterprise-style tickets with:
+6️. Structured Logging System
 
-Client names
-
-Shipment IDs
-
-Locations
-
-SLA delays
-
-API failures
-
-3️⃣ RAG Engine (Knowledge Retrieval)
-
-File: 
-
-rag_engine
-
-Uses sentence-transformers
-
-FAISS similarity search
-
-Retrieves best-matching resolution template
-
-4️⃣ Automation Engine
-
-File: 
-
-automation_engine
-
-Maps issue type → automated action:
-
-restart_sync()
-
-refund_payment()
-
-retrigger_api()
-
-update_eta()
-
-resync_inventory()
-
-Includes dynamic ID extraction from ticket text.
-
-5️⃣ LLM-Powered Response Generation
-
-Inside: 
-
-app
-
-Uses:
-
-Ollama
-
-Phi-3 model
-
-Generates professional customer-facing email responses signed as:
-
-Dhanasree Gidijala
-Applied AI Support Engineer
-
-6️⃣ Structured Logging System
-
-File: 
-
-logger
-
-Logs every ticket into:
-
-data/active_log.csv
+     File: 
+     
+     logger
+     
+     Logs every ticket into:
+     
+     data/active_log.csv
 
 Captures:
 
-Timestamp
+     Timestamp
+     
+     Ticket text
+     
+     Predicted issue
+     
+     Confidence
+     
+     Automation result
+     
+     Status (Automated / Escalated)
+     
+     Displayed in dashboard for monitoring.
 
-Ticket text
+--> Web Interface
 
-Predicted issue
-
-Confidence
-
-Automation result
-
-Status (Automated / Escalated)
-
-Displayed in dashboard for monitoring.
-
-🖥️ Web Interface
-
-File: 
-
-app
+     File: 
+     
+     app
 
 Built with:
 
-Streamlit
-
-Interactive dashboard
-
-Live automation logs table
-
-Confidence-based escalation
+     Streamlit
+     
+     Interactive dashboard
+     
+     Live automation logs table
+     
+     Confidence-based escalation
 
 --> Installation & Setup
-1️⃣ Clone Repository
-git clone <your-repo-url>
-cd AutoResolveAI
-2️⃣ Create Virtual Environment
-python -m venv venv
-venv\Scripts\activate
-3️⃣ Install Dependencies
-pip install -r requirements.txt
+     1️. Clone Repository
+     git clone <your-repo-url>
+     cd AutoResolveAI
+     2️. Create Virtual Environment
+     python -m venv venv
+     venv\Scripts\activate
+     3️. Install Dependencies
+     pip install -r requirements.txt
 
 Requirements file: 
 
-requirements
+     requirements
 
-4️⃣ Install Ollama
+4️. Install Ollama
 
 Download from:
 
@@ -201,70 +200,71 @@ https://ollama.com
 Pull lightweight model:
 
 ollama pull phi3
-5️⃣ Generate Dataset
+5️. Generate Dataset
 python generate_data.py
-6️⃣ Train Classifier
+6️. Train Classifier
 python ticket_classifier.py
-7️⃣ Run Application
+7️. Run Application
 streamlit run app.py
-📊 Features
 
-✔ ML-based ticket classification
-✔ Confidence-based automation threshold
-✔ RAG-powered solution suggestion
-✔ LLM-generated professional email responses
-✔ Deterministic automation execution
-✔ Structured logging for audit & analytics
-✔ Interactive Streamlit dashboard
+--> Features
 
-🏗️ Design Philosophy
+     ML-based ticket classification
+     Confidence-based automation threshold
+     RAG-powered solution suggestion
+     LLM-generated professional email responses
+     Deterministic automation execution
+     Structured logging for audit & analytics
+     Interactive Streamlit dashboard
 
-This system intentionally uses a hybrid deterministic architecture:
+--> Design Philosophy
 
-ML decides issue type
-
-Automation mapping is controlled
-
-LLM generates explanation only
-
-Logging ensures auditability
+     This system intentionally uses a hybrid deterministic architecture:
+     
+     ML decides issue type
+     
+     Automation mapping is controlled
+     
+     LLM generates explanation only
+     
+     Logging ensures auditability
 
 This improves:
 
-Reliability
+     Reliability
+     
+     Explainability
+     
+     Production stability
+     
+     Enterprise readiness
 
-Explainability
+--> Future Improvements
 
-Production stability
+     SLA breach risk prediction
+     
+     Automation success rate metrics dashboard
+     
+     Escalation analytics
+     
+     Multi-agent routing
+     
+     FastAPI backend separation
+     
+     Real database (PostgreSQL) instead of CSV
+     
+     Real API integration
 
-Enterprise readiness
+--> What This Project Demonstrates
 
-📈 Future Improvements
+     Applied ML in production workflows
+     
+     Hybrid AI system design
+     
+     LLM integration using local models
+     
+     Automation reliability trade-offs
+     
+     Enterprise CX engineering thinking
 
-SLA breach risk prediction
-
-Automation success rate metrics dashboard
-
-Escalation analytics
-
-Multi-agent routing
-
-FastAPI backend separation
-
-Real database (PostgreSQL) instead of CSV
-
-Real API integration
-
-🧠 What This Project Demonstrates
-
-Applied ML in production workflows
-
-Hybrid AI system design
-
-LLM integration using local models
-
-Automation reliability trade-offs
-
-Enterprise CX engineering thinking
-
-Observability via logging
+     Observability via logging
