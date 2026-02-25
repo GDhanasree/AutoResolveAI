@@ -269,3 +269,5 @@ This improves:
 
      Observability via logging
 
+<img width="1786" height="487" alt="image" src="https://github.com/user-attachments/assets/0a8fa5c8-b95a-4798-94f9-c59fbd4daac2" />
+
