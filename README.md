@@ -179,7 +179,7 @@ Built with:
 
 --> Installation & Setup
      1️. Clone Repository
-     git clone <your-repo-url>
+     git clone https://github.com/GDhanasree/AutoResolveAI.git
      cd AutoResolveAI
      2️. Create Virtual Environment
      python -m venv venv
@@ -268,3 +268,4 @@ This improves:
      Enterprise CX engineering thinking
 
      Observability via logging
+
